@@ -8,10 +8,10 @@ class buku {
 		penerbit = "Tiga Serangkai";
 		pengarang = "Rinaldi Munir";
 
-		System.out.println(" Kode Buku = "+kode);
+		System.out.println(" Kode Buku  = "+kode);
 		System.out.println(" Judul Buku = "+judul);
-		System.out.println(" Penerbit = "+penerbit);
-		System.out.println(" Pengarang = "+pengarang);
+		System.out.println(" Penerbit   = "+penerbit);
+		System.out.println(" Pengarang  = "+pengarang);
 		System.out.println(" -------------------");
 	}
 
