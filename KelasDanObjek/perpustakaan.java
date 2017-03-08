@@ -4,6 +4,7 @@ class perpustakaan{
 		buku book = new buku();
 
 		borrow.tampilpeminjam();
+		book.tampilbuku();
 		borrow.meminjamBuku();
 		
 		
