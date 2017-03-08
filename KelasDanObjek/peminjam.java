@@ -3,6 +3,11 @@ class peminjam{
 	
 	void tampilpeminjam(){
 		
+		nama = "Agung Nugraha";
+		pekerjaan = "Mahasiswa";
+		alamat = "Bandung";
+		nohp = "082316675115";
+
 		System.out.println(" << Perpustakaan >>");
 		System.out.println(" ------------------- ");
 		System.out.println(" Nama Peminjam = "+nama);
