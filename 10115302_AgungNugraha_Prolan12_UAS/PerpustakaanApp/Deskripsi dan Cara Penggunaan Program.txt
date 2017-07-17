@@ -1,0 +1,159 @@
+ =====================================================================================================================================================================
+|	
+|	NIM	: 10115302
+|	NAMA	: AGUNG NUGRAHA
+|	KELAS	: PROLAN 12
+|
+|
+|	[-- Program Peminjaman Buku Pada Perputakaan --]
+|
+|		SELAMAT DATANG DI PERPUSTKAAN 
+|		       CV. ABADI PERPUS
+|		 ============================
+|		|	MENU PILIHAN	     |
+|		 ----------------------------
+|		| 1. Tampil Data Buku	     |
+|		| 2. Tampil Jadwal Pegawai   |
+|		| 3. Pinjam Buku	     |
+|		| 4. Pengembalian Buku	     |
+|		| 5. Aturan Peminjaman	     |
+|		| 0. Keluar		     |
+|		 ============================
+|
+|
+|	>> DESKRIPSI PROGRAM <<
+|	1. Program ini merupakan sebuah program yang berfungsi untuk mengatur peminjaman buku pada perpustakaan
+|	
+|
+|	>> CARA MENGGUNAKAN PROGRAM <<
+|
+| 		SELAMAT DATANG DI PERPUSTKAAN 
+|		       CV. ABADI PERPUS
+|		 ============================
+|		|	MENU PILIHAN	     |
+|		 ----------------------------
+|		| 1. Tampil Data Buku	     |
+|		| 2. Tampil Jadwal Pegawai   |
+|		| 3. Pinjam Buku	     |
+|		| 4. Pengembalian Buku	     |
+|		| 5. Aturan Peminjaman	     |
+|		| 0. Keluar		     |
+|		 ============================
+|
+|	1. Apabila seorang user menginputkan angka 1, maka program akan menampilkan data-data buku yang tersedia di perpustakaan yang boleh dipinjam
+|	   Data Buku memiliki data seperti :
+|		>> Kode Buku
+|		>> Judul Buku
+|		>> Nama Penerbit
+|		>> Tahun Terbit
+|
+|		Tampilan data buku sebagai berukut :
+|
+|		 Data Buku Yang Terdapat Pada Perpustakaan 
+|		 ----------------------------------------- 
+|		 Kode Buku    : A001
+|	 	 Judul Buku   : Java Programming 
+|	 	 Penerbit     : Informatika
+|		 Pengarang    : Rinaldi Munir
+|		 Tahun Terbit : 2012
+|		 ----------------------------------------- 
+|		 Kode Buku    : A002
+|		 Judul Buku   : HTML 5 
+|		 Penerbit     : Informatika
+|		 Pengarang    : Rinaldi Munir
+|		 Tahun Terbit : 2012
+|		 ----------------------------------------- 
+|		 Kode Buku    : A003
+|		 Judul Buku   : Belajar PHP Yuks 
+|		 Penerbit     : Informatika
+|		 Pengarang    : Rinaldi Munir
+|		 Tahun Terbit : 2012
+|		 ----------------------------------------- 
+|		 Kode Buku    : A004
+|		 Judul Buku   : Mendalami Dunia Hacking 
+|		 Penerbit     : Informatika
+|		 Pengarang    : Rinaldi Munir
+|		 Tahun Terbit : 2012
+|		 ----------------------------------------- 
+|		 Kode Buku    : A005
+|		 Judul Buku   : Apa itu OOP ? 
+|		 Penerbit     : Informatika
+|		 Pengarang    : Rinaldi Munir
+|		 Tahun Terbit : 2012
+|		 ----------------------------------------- 
+|
+|	2. Apabila seorang user menginputkan angka 2, maka program akan menampilkan data-data dan jadwal petugas perpustakaan yang menjaga serta meminjamkan buku
+|	   Data Pegawai memiliki data seperti :
+|		>> NIP Pegawai
+|		>> Nama Pegawai
+|		>> Jam Kerja
+|
+|		Tampilan jadwal pegawai sebagai berikut :
+|
+|		Data Pegawai 
+|		 ---------------------- 
+|		 NIP    : 10115302
+|		 Nama   : Agung Nugraha
+|		 Jadwal : Senin
+|		 ---------------------- 
+|		 NIP    : 10115303
+|		 Nama   : Sebastian
+|		 Jadwal : Selasa
+|		 ---------------------- 
+|		 NIP    : 10115304
+|		 Nama   : Ridwan Kamil
+|		 Jadwal : Rabu
+|		 ---------------------- 
+|		 NIP    : 10115305
+|		 Nama   : Joko Widodo
+|		 Jadwal : Kamis
+|		 ---------------------- 
+|		 NIP    : 10115306
+|		 Nama   : Megawati
+|		 Jadwal : Jumat
+|		 ---------------------- 
+|
+|	3. Apabila seorang user menginputkan angka 3, maka program akan meminta data masukkan dari seorang peminjam dan data buku yang dipinjam
+|		
+|		>> Nama Peminjam
+|		>> Pekerjaan
+|		>> Alamat Peminjam
+|		>> Usia
+|		>> Nomor HP/Telepon yang bisa dihubungi
+|		>> Kode Buku
+|		>> Judul Buku
+|		>> Nama Penerbit
+|		>> Nama Pengarang
+|		>> Tahun Terbit
+|
+|	   Kemudian, user akan meminta ketersediaan peminjam untuk lama meminjam buku maksimal 3 hari
+|	   program akan memberikan tanggal batas pengembalian buku yang dipinjam, 
+|	   apabila telat mengembalikan maka terdapat konsekuensi yang akan diterima sesuai aturan yang telah tersedia
+|
+|	4. Apabila seorang user menginputkan angka 4, maka program akan meminta data masukkan dari seorang peminjam dari buku yang telah dipinjam
+|	   
+|		>> Muncul data tanggal, lama, dan batas peminjaman. 
+|		   Apabila peminjam telat mengembalikan buku pinjaman, maka akan dikenakan sanksi sesuai aturan perpustakaan.
+|	  
+|	5. Apabila seorang user menginputkan angka 5, maka program akan menampilkan aturan peminjaman buku di perpustakaan
+|
+|			 =====================================================================================
+|			|                                  ATURAN PEMINJAMAN                                  |
+|			|                            CV. ABADI PERPUS | 022 5223202                           |
+|			 =====================================================================================
+|			| 1. Peminjam wajib mengisi data peminjaman dengan lengkap                            |
+|			| 2. Peminjam hanya dapat meminjam buku yang terdapat dalam data buku di perpustakaan |
+|			| 3. Peminjam wajib mengisi data buku dan pegawai yang menjaga perpustakaan           |
+|			| 4. Peminjam wajib mengembalikan buku tepat pada waktunya                            |
+|			| 5. Sanksi apabila telat dalam pengembalian buku :                                   |
+|			|   a. Telat pengembalian sebelum kurang dari 3 hari : Rp. 2.000                      |
+|			|   b. Telat pengembalian sebelum seminggu : Rp. 5.000                                |
+|			|   c. Telat pengembalian sebelum sebulan : Rp. 10.000                                |
+|			|   d. Telat pengembalian > 30 hari : seharga buku yang dipinjam                      |
+|			 =====================================================================================
+|
+|	0. Apabila seorang user menginputkan angka 0, maka program akan automatis keluar dari aplikasi
+|
+|	NB : Apabila dalam inputan pilihan salah atau tidak sesuai perintah maka program akan langsung keluar.
+|
+ =====================================================================================================================================================================================
